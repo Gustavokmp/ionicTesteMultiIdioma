@@ -1,0 +1,9 @@
+<ion-view title="{{ 'TAB3' | translate }}">
+    <ion-content class="has-header padding">
+        <div class="list">
+            <ion-radio ng-model="choice" ng-value="en-US" ng-click="changeLanguage('en')">{{ 'lang_en' | translate }}</ion-radio>
+            <ion-radio ng-model="choice" ng-value="esp-ESP" ng-click="changeLanguage('esp')">{{ 'lang_esp' | translate }}</ion-radio>
+            <ion-radio ng-model="choice" ng-value="pt-BR" ng-click="changeLanguage('pt')">{{ 'lang_pt' | translate }}</ion-radio>
+        </div>
+    </ion-content>
+</ion-view>
